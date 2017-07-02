@@ -25,7 +25,7 @@ class SearchBar extends React.Component{
       <form onSubmit={ this.onFormSubmit.bind(this) } className="input-group">
         <input
           className="form-control"
-          placeholder="Search your favourite cities to get a five-day forecast"
+          placeholder="Search your favourite cities to get a five-day forecast e.g. Islamabad"
           value={ this.state.term }
           onChange={ this.onInputChange.bind(this) }
           />
